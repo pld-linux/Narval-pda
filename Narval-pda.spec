@@ -22,13 +22,16 @@ from with a recipe.
 
 %description -l pl
 Recepta PDA to przyk³ad jak Narval mo¿e byæ wykorzystany jako prosty
-serwer WWW do zarz±dzania twoim czasem i list± kontaktów.
+serwer WWW do zarz±dzania twoim czasem i list± kontaktów. Pokazuje
+tak¿e czê¶æ mo¿liwo¶ci samoobserwacji Narvala, z recepturami
+pokazuj±cymi dostêpne receptury, akcje i przekszta³cenia, a tak¿e jak
+dziedziczyæ nowy plan z receptury.
 
 %prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps
+install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps/%{short_name}-%{version}.npm
 
 %clean
 rm -rf $RPM_BUILD_ROOT

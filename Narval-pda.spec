@@ -22,12 +22,10 @@ actions and transformations, as well as how to instanciate a new plan
 from with a recipe.
 
 %description -l pl
-Recepta PDA to przyk³±d jak NArval mo¿e byæ wyko¿ystany jako prosty
+Recepta PDA to przyk³±d jak NArval mo¿e byæ wykorzystany jako prosty
 werwer WWW do zarz±dzania twoim czasem i list± kontaktów.
 
 %prep
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT

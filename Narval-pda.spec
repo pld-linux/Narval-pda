@@ -28,8 +28,7 @@ serwer WWW do zarz±dzania twoim czasem i list± kontaktów.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{_datadir}/narval/apps
-install %{SOURCE0} $RPM_BUILD_ROOT/%{_datadir}/narval/apps
+install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps
 
 %clean
 rm -rf $RPM_BUILD_ROOT

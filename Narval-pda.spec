@@ -5,13 +5,13 @@ Summary(pl):	Cyfrowy asystent osobisty
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
-Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
-# Source0-md5:	00dbc153f05108e55117e524b5e36947
 License:	GPL
 Group:		Applications
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
+# Source0-md5:	00dbc153f05108e55117e524b5e36947
+URL:		http://www.logilab.org/narval/app.html
 Requires:	Narval
-Url:		http://www.logilab.org/narval/app.html
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The PDA recipe is an example of how Narval can be used as a simple web

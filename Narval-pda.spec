@@ -1,9 +1,11 @@
+%define short_name pda
+
 Summary:	Personal Digital Asistant
 Summary(pl):	Cyfrowy asystent osobisty
-Name:		pda
+Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
-Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{name}-%{version}.npm
+Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
 License:	GPL
 Group:		Applications
 Group(de):	Applikationen

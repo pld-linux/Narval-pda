@@ -1,7 +1,7 @@
 %define short_name pda
 
 Summary:	Personal Digital Asistant
-Summary(pl):	Cyfrowy asystent osobisty
+Summary(pl.UTF-8):   Cyfrowy asystent osobisty
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
@@ -20,12 +20,12 @@ Narval introspection features, with recipes showing available recipes,
 actions and transformations, as well as how to instanciate a new plan
 from with a recipe.
 
-%description -l pl
-Recepta PDA to przyk³ad jak Narval mo¿e byæ wykorzystany jako prosty
-serwer WWW do zarz±dzania twoim czasem i list± kontaktów. Pokazuje
-tak¿e czê¶æ mo¿liwo¶ci samoobserwacji Narvala, z recepturami
-pokazuj±cymi dostêpne receptury, akcje i przekszta³cenia, a tak¿e jak
-dziedziczyæ nowy plan z receptury.
+%description -l pl.UTF-8
+Recepta PDA to przykÅ‚ad jak Narval moÅ¼e byÄ‡ wykorzystany jako prosty
+serwer WWW do zarzÄ…dzania twoim czasem i listÄ… kontaktÃ³w. Pokazuje
+takÅ¼e czÄ™Å›Ä‡ moÅ¼liwoÅ›ci samoobserwacji Narvala, z recepturami
+pokazujÄ…cymi dostÄ™pne receptury, akcje i przeksztaÅ‚cenia, a takÅ¼e jak
+dziedziczyÄ‡ nowy plan z receptury.
 
 %prep
 

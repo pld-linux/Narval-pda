@@ -1,7 +1,7 @@
 %define short_name pda
 
 Summary:	Personal Digital Asistant
-Summary(pl.UTF-8):   Cyfrowy asystent osobisty
+Summary(pl.UTF-8):	Cyfrowy asystent osobisty
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
